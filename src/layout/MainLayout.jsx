@@ -15,6 +15,8 @@ export default function MainLayout(){
     },[])
 
     const navigate = (path) => {
+        console.log("path değişti",path);
+        
         window.history.pushState({},"", path);
         setPage(path);
     }
@@ -24,7 +26,7 @@ export default function MainLayout(){
             <Header navigate={navigate}/>
             <div>
                 <App>
-                    {page === "/home" && <HomePage navigate={navigate} />}
+                    {page === "/Hakkimda" && <HomePage navigate={navigate} />}
                 </App>
             </div>
         </div>
