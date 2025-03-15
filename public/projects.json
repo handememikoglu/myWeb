@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Not Ortalaması Hesaplayıcı",
+      "description": "JavaScript kullanarak geliştirilen, kullanıcıdan aldığı notlara göre ortalama hesaplayan basit bir uygulama.",
+      "tech": ["Javascript"],
+      "image": "/img/gradesAverage.png",
+      "live": "https://not-ortalama-hesaplama.vercel.app/",
+      "github": "https://github.com/handememikoglu/notOrtalamaHesaplama.git"
+    },
+    {
+      "id": 2,
+      "title": "Sayıların Karelerini Hesaplama",
+      "description": "Bu JavaScript kodu, içinde sayılar bulunan bir diziyi alır ve her sayının karesini hesaplayarak yeni bir dizi oluşturur. Kullanıcıdan herhangi bir giriş almaz, sadece hazır bir dizi üzerinden işlem yapar.",
+      "tech": ["Javascript"],
+      "image": "/img/kareAlma.png",
+      "live": "https://sayilarin-karelerini-hesaplama.vercel.app/",
+      "github": "https://github.com/handememikoglu/SayilarinKareleriniHesaplama.git"
+    }
+  ]
+  

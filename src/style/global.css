@@ -113,3 +113,48 @@
     position: relative; /* Yazıyı her zaman üstte tutar */
     z-index: 1; /* Yazıyı en üst katmanda tutmak için */
 }
+/* .project-container{
+    background-color: #0e302f;
+    padding-inline: 20px 16px;
+    height: auto;
+}
+.project-card{
+    background-color: #386261;
+    margin-bottom: 10px;
+    img{
+        width: 90%;
+    }
+} */
+.project-container {
+    background-color: #0e302f;
+    padding: 20px 16px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #386261;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden; /* Resmin yuvarlak kenarlarda düzgün görünmesini sağlar */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Hafif gölgelendirme */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Kartın hoverda yukarı kayması */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Hoverda daha belirgin gölge */
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Resmin kesilmeden tamamen kapsaması için */
+}
+
+.project-info {
+    padding: 16px;
+    color: #fff;
+}

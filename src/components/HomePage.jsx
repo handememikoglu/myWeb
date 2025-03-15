@@ -6,7 +6,7 @@ export default function HomePage({navigate}){
     }
     return(
         <div className="container">
-            <img src="/public/img/myweb-bg.svg" alt="" />
+            <img src="./img/myweb-bg.svg" alt="" />
             <div className="container-btn">
                 <a href="/Projeler" className="project-btn" onClick={handleChangeMenu}>Projeler</a>
                 <a href="/İletisim" className="contact-btn" onClick={handleChangeMenu}>İletişim</a>
