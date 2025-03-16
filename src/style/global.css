@@ -260,7 +260,7 @@
         flex-direction: column-reverse;
     }
     .textInfo {
-        min-height: 60vh; 
+        min-height: 60gitvh; 
         max-width: 500px;
         background-image: url('/img/star-myweb.png');
         background-repeat: no-repeat;
