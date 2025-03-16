@@ -89,7 +89,7 @@
 }
 .textInfo{
     padding-inline: 16px;
-    background-image: url('/public/img/star-myweb.png');
+    background-image: url('/img/star-myweb.png');
     background-repeat: round;
     background-position: center center;
 }
@@ -113,18 +113,6 @@
     position: relative; /* Yazıyı her zaman üstte tutar */
     z-index: 1; /* Yazıyı en üst katmanda tutmak için */
 }
-/* .project-container{
-    background-color: #0e302f;
-    padding-inline: 20px 16px;
-    height: auto;
-}
-.project-card{
-    background-color: #386261;
-    margin-bottom: 10px;
-    img{
-        width: 90%;
-    }
-} */
 .project-container {
     background-color: #0e302f;
     padding: 20px 16px;
@@ -158,3 +146,91 @@
     padding: 16px;
     color: #fff;
 }
+.project-cart-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding:25px 18px;
+    a{
+        text-decoration: none;
+        width: 90px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+    }
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 25px;
+    background-color: #0e302f;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    height: 100vh;
+    background-image: url('/img/star-myweb.png');
+}
+
+.contact-container h2 {
+    color: #FCB336;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.contact-container p {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.contact-container span {
+    font-weight: bold;
+    color: #FCB336;
+}
+
+.contact-text {
+    color: #FCB336;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-text:hover {
+    color: #0073e6;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.contact-icon {
+    font-size: 28px;
+    color: #FCB336;
+    transition: transform 0.3s ease, color 0.3s ease;
+    padding: 10px;
+    border: 2px solid #FCB336;
+    border-radius: 8px;
+}
+
+.contact-icon:hover {
+    transform: scale(1.2);
+    color: #0073e6;
+    border-color: #0073e6;
+}
+

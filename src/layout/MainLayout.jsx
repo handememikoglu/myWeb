@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import App from "../App";
 import HomePage from "../components/HomePage";
 import Projects from "../components/Projects";
+import Contact from "../components/contact";
 
 export default function MainLayout(){
     const [page,setPage] = useState(window.location.pathname);
@@ -29,6 +30,7 @@ export default function MainLayout(){
                 <App>
                     {page === "/" && <HomePage navigate={navigate} />}
                     {page === "/Projeler" && <Projects  navigate={navigate}/>}
+                    {page === "/iletisim" && <Contact navigate={navigate} />}
                 </App>
             </div>
         </div>
